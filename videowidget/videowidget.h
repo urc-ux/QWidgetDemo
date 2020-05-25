@@ -29,6 +29,7 @@ class QTimer;
 #include <QtUiPlugin/QDesignerExportWidget>
 #endif
 
+#if()
 class QDESIGNER_WIDGET_EXPORT VideoWidget : public QWidget
 #else
 class VideoWidget : public QWidget
